@@ -1,12 +1,10 @@
-import React from 'react';
-import Header from './pages/Logon';
-import Logon from './pages/Logon';
+import React from 'react'
 import './global.css'
-
+import Routes from './routes'
 
 function App() {
   return (
-    <Logon />
+    <Routes />
   );
 }
 
